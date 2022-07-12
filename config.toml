@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "dimension"
+defaultContentLanguage = "en"
+[languages]
+  [languages.hi]
+    languageName = "hindi"
+    contentDir = 'content/hindi'
+    title = 'टाइटल'
+    weight = 2
+  [languages.en]
+  languageName = "english"
+  contentDir = 'content/english'
+    title = 'My blog'
+    weight = 1
